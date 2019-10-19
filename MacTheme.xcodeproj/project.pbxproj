@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB01834522F58D4D004D26E0 /* DockTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01834422F58D4D004D26E0 /* DockTheme.m */; };
+		FB01834722F58F72004D26E0 /* FinderTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01834622F58F72004D26E0 /* FinderTheme.m */; };
+		FBC613B921A6B4FF0091243F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC613B821A6B4FF0091243F /* AppKit.framework */; };
+		FBC613BB21A6B4FF0091243F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC613BA21A6B4FF0091243F /* Foundation.framework */; };
+		FBC613C221A6B4FF0091243F /* MacTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC613C121A6B4FF0091243F /* MacTheme.m */; };
+		FBC613D121A6B5A40091243F /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC613C521A6B4FF0091243F /* ZKSwizzle.m */; };
+		FBC613D521A6BD900091243F /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = FBC613D221A6BCC00091243F /* fishhook.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB01834322F58D4D004D26E0 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		FB01834422F58D4D004D26E0 /* DockTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockTheme.m; sourceTree = "<group>"; };
+		FB01834622F58F72004D26E0 /* FinderTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderTheme.m; sourceTree = "<group>"; };
+		FB968F72235312210035E9E5 /* TIconCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIconCollectionViewController.h; sourceTree = "<group>"; };
+		FBC613B521A6B4FF0091243F /* MacTheme.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTheme.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC613B821A6B4FF0091243F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		FBC613BA21A6B4FF0091243F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FBC613BE21A6B4FF0091243F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC613C021A6B4FF0091243F /* MacTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacTheme.h; sourceTree = "<group>"; };
+		FBC613C121A6B4FF0091243F /* MacTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacTheme.m; sourceTree = "<group>"; };
+		FBC613C421A6B4FF0091243F /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZKSwizzle.h; path = ZKSwizzle/ZKSwizzle.h; sourceTree = "<group>"; };
+		FBC613C521A6B4FF0091243F /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZKSwizzle.m; path = ZKSwizzle/ZKSwizzle.m; sourceTree = "<group>"; };
+		FBC613D221A6BCC00091243F /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		FBC613D321A6BCC00091243F /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC613B221A6B4FF0091243F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC613B921A6B4FF0091243F /* AppKit.framework in Frameworks */,
+				FBC613BB21A6B4FF0091243F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC613AC21A6B4FF0091243F = {
+			isa = PBXGroup;
+			children = (
+				FBC613BC21A6B4FF0091243F /* MacTheme */,
+				FBC613B721A6B4FF0091243F /* Frameworks */,
+				FBC613B621A6B4FF0091243F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC613B621A6B4FF0091243F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC613B521A6B4FF0091243F /* MacTheme.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC613B721A6B4FF0091243F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBC613B821A6B4FF0091243F /* AppKit.framework */,
+				FBC613BA21A6B4FF0091243F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC613BC21A6B4FF0091243F /* MacTheme */ = {
+			isa = PBXGroup;
+			children = (
+				FB968F72235312210035E9E5 /* TIconCollectionViewController.h */,
+				FB01834322F58D4D004D26E0 /* CDStructures.h */,
+				FB01834622F58F72004D26E0 /* FinderTheme.m */,
+				FB01834422F58D4D004D26E0 /* DockTheme.m */,
+				FBC613D321A6BCC00091243F /* fishhook.h */,
+				FBC613D221A6BCC00091243F /* fishhook.c */,
+				FBC613C021A6B4FF0091243F /* MacTheme.h */,
+				FBC613C121A6B4FF0091243F /* MacTheme.m */,
+				FBC613C321A6B4FF0091243F /* ZKSwizzle */,
+				FBC613BD21A6B4FF0091243F /* Supporting Files */,
+			);
+			path = MacTheme;
+			sourceTree = "<group>";
+		};
+		FBC613BD21A6B4FF0091243F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC613BE21A6B4FF0091243F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBC613C321A6B4FF0091243F /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				FBC613C421A6B4FF0091243F /* ZKSwizzle.h */,
+				FBC613C521A6B4FF0091243F /* ZKSwizzle.m */,
+			);
+			name = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC613B421A6B4FF0091243F /* MacTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC613CB21A6B4FF0091243F /* Build configuration list for PBXNativeTarget "MacTheme" */;
+			buildPhases = (
+				FBC613B121A6B4FF0091243F /* Sources */,
+				FBC613B221A6B4FF0091243F /* Frameworks */,
+				FBC613B321A6B4FF0091243F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacTheme;
+			productName = test01;
+			productReference = FBC613B521A6B4FF0091243F /* MacTheme.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC613AD21A6B4FF0091243F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = macenhance;
+				TargetAttributes = {
+					FBC613B421A6B4FF0091243F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FBC613B021A6B4FF0091243F /* Build configuration list for PBXProject "MacTheme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC613AC21A6B4FF0091243F;
+			productRefGroup = FBC613B621A6B4FF0091243F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC613B421A6B4FF0091243F /* MacTheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC613B321A6B4FF0091243F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC613B121A6B4FF0091243F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC613D521A6BD900091243F /* fishhook.c in Sources */,
+				FBC613C221A6B4FF0091243F /* MacTheme.m in Sources */,
+				FB01834522F58D4D004D26E0 /* DockTheme.m in Sources */,
+				FBC613D121A6B5A40091243F /* ZKSwizzle.m in Sources */,
+				FB01834722F58F72004D26E0 /* FinderTheme.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBC613C921A6B4FF0091243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		FBC613CA21A6B4FF0091243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		FBC613CC21A6B4FF0091243F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = MacTheme/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.w0lf.macenhance.MacTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FBC613CD21A6B4FF0091243F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = MacTheme/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.w0lf.macenhance.MacTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC613B021A6B4FF0091243F /* Build configuration list for PBXProject "MacTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC613C921A6B4FF0091243F /* Debug */,
+				FBC613CA21A6B4FF0091243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC613CB21A6B4FF0091243F /* Build configuration list for PBXNativeTarget "MacTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC613CC21A6B4FF0091243F /* Debug */,
+				FBC613CD21A6B4FF0091243F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC613AD21A6B4FF0091243F /* Project object */;
+}
